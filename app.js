@@ -9,7 +9,7 @@ const argv = yargs
             alias: 'address',
             describe: 'Address to fetch weather for',
             string: true
-        }
+        } 
     })
     .help()
     .alias('help', 'h')
