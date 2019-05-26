@@ -10,7 +10,7 @@ const argv = yargs
             string: true
         }
     })
-    .help()
+    .help() 
     .alias('help', 'h')
     .argv;
 
