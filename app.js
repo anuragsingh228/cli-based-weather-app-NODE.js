@@ -1,7 +1,7 @@
 const yargs = require('yargs');
 
 const geocode = require('./geocode/geocode');
-const weather = require('./weather/weather');
+const weather = require('./weather/weather'); 
 const argv = yargs
     .options({
         a: {
